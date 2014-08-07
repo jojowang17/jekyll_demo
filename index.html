@@ -11,7 +11,7 @@
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script type="text/javascript" src="javascripts/script.js"></script>
 
-  <title>Jekyll demo</title>
+  <title>Shibiao WAN</title>
   <meta name="description" content="">
 
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -22,7 +22,7 @@
 
   <div class="wrapper">
     <header>
-      <h1 class="title">Jekyll demo</h1>
+      <h1 class="title">WAN Shibiao's Blog</h1>
     </header>
     <div id="container">
       <p class="tagline"></p>
@@ -39,17 +39,30 @@
           <h1>
 <a name="my-portfolio" class="anchor" href="#my-portfolio"><span class="octicon octicon-link"></span></a>My portfolio</h1>
 
-<p>My name is <a href="http://twitter.com/dancow">Dan Nguyen</a></p>
+<p>My name is <a href="https://sites.google.com/site/shibiaowan/">Shibiao WAN</a> (traditional Chinese: 萬時彪，simplified Chinese: 万时彪), currently a PhD candidate majoring in Bioinformatics in The Hong Kong Polytechnic University, Hong Kong SAR.</p>
 
 <ul>
-<li><p><a href="http://regex.bastardsbook.com/">Bastards Book of Regular Expressions</a>  - A free ebook on how to use regular expressions for everyday informational purposes</p></li>
+<li><p><a href="https://sites.google.com/site/shibiaowan/">My google site</a></p></li>
 <li><p><a href="http://tumblr.eyeheartnewyork.com">Eye Heart New York</a> - A Tumblr of my New York photos</p></li>
 <li><p><a href="http://iheartnymuseums.com/">I Heart NY Museums</a> - A really old interactive map showing open/free hours at local museums</p></li>
 </ul><p>A picture of someone playing the didgeridoo</p>
 
 <p><img src="http://i.imgur.com/2i35DTo.jpg" alt="alt text"></p>
 
-<p>Here's video of that performance:</p>
+<p>The latest article</p>
+
+　　<ul>
+
+　　　　{% for post in site.posts %} 
+
+　　　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+
+　　　　{% endfor %}
+
+　　</ul>
+
+
+<p>Here's video of that performance:</p> (Not shown here)
         </article>
       </div>
     </div>
