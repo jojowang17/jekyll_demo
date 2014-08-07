@@ -1,6 +1,6 @@
 # My portfolio
 
-My name is [Dan Nguyen](http://twitter.com/dancow)
+My name is <a href="https://sites.google.com/site/shibiaowan/">Shibiao WAN</a> (traditional Chinese: 萬時彪，simplified Chinese: 万时彪), currently a PhD candidate majoring in Bioinformatics in The Hong Kong Polytechnic University, Hong Kong SAR.
 
 * [Bastards Book of Regular Expressions](http://regex.bastardsbook.com/)  - A free ebook on how to use regular expressions for everyday informational purposes
 
