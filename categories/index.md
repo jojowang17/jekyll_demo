@@ -4,14 +4,15 @@ layout: default
 ---
 
 <div id='tag_cloud'>
+<p><font size = "4">Listing all categories:</font></p>
 {% for cat in site.categories %}
-<a href="#{{ cat[0] }}" title="{{ cat[0] }}" rel="{{ cat[1].size }}">{{ cat[0] }} ({{ cat[1].size }})</a>
+<a href="#{{ cat[0] }}" title="{{ cat[0] }}" rel="{{ cat[1].size }}"><font color = "red" size = "4" face = "verdana">{{ cat[0] }} ({{ cat[1].size }})|</font></a>
 {% endfor %}
 </div>
 
 <ul class="listing">
 {% for cat in site.categories %}
-  <li class="listing-seperator" id="{{ cat[0] }}">{{ cat[0] }}
+  <li class="listing-seperator" id="{{ cat[0] }}"><font color = "red" size = "4" face = "verdana">{{ cat[0] }}</font></li>
 {% for post in cat[1] %}
   <li class="listing-item">
   <time datetime="{{ post.date | "%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
