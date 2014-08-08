@@ -3,6 +3,7 @@ layout: article
 categories: [website]
 tags: [jekyll,jojo]
 title: The first article
+comments: yes
 ---
 <h2>{{ page.title }}</h2>
 <p>This is my first article to be posted.</p>
