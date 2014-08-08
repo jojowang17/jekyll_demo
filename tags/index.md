@@ -1,6 +1,6 @@
 ---
 title: tags
-layout: page
+layout: default
 ---
 
 <div id='tag_cloud'>
