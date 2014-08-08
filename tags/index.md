@@ -5,7 +5,7 @@ layout: default
 
 <div id='tag_cloud'>
 {% for tag in site.tags %}
-<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}"><font color = "red" size = "4" face = "verdana">{{ tag[0] }}</font></a>
+<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}"><font color = "red" size = "4" face = "verdana">{{ tag[0] }}</font></a>|
 {% endfor %}
 </div>
 
