@@ -32,10 +32,10 @@ layout: default
 <br>
 <div id="post-nav" class="clearfix">
   {% if page.previous.url %} 
-    <a class="prev" href="{{page.previous.url}}" title="{{ page.previous.title }}">&laquo; Previous Article</a> 
+    <li><a class="prev" href="{{page.previous.url}}" title="{{ page.previous.title }}">&laquo; Previous Article</a></li> 
   {% endif %} 
   {% if page.next.url %} 
-    <a class="next" href="{{page.next.url}}" title="{{page.next.title}}"> Next Article &raquo;</a> 
+    <li><a class="next" href="{{page.next.url}}" title="{{page.next.title}}"> Next Article &raquo;</a></li> 
   {% endif %} 
 </div>
 <hr>
