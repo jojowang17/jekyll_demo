@@ -1,6 +1,12 @@
 ---
 layout: default
 ---
+
+<div>
+  <h2 align="center">{{ page.title }}</h2>
+</div>
+<p>{{ page.date | date_to_string }}</p>
+<hr>
 <section class="article">
 {{ content }}
 </section>
