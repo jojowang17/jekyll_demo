@@ -1,8 +1,8 @@
 ---
 layout: article
-categories: [MIP]  
+categories: [image_processing]  
 tags: [brain]
-title: The dimension of MNI templete
+title: The dimension of MNI template
 comments: yes
 ---
 
