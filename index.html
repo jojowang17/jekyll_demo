@@ -19,8 +19,9 @@ title: Jojo WANG's Blog
 
 
 <div>
-<br><br>
+<br><br><br>
 <h3>The latest articles</h3>
+p, ul {margin:0;}
 　　<ul>
 　　    {% for post in site.posts %} 
 　　　　<li><p>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p></li>
