@@ -19,9 +19,9 @@ title: Jojo WANG's Blog
 <div>
 <h3>The latest articles</h3>
 　　<ul>
-　　　　{% for post in site.posts limit: 10 %} 
-　　　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-　　　　{% endfor %}
+　　　　
+　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+　　　　
 　　</ul>
 　　        
 　　</div>
