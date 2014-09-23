@@ -12,8 +12,10 @@ title: Jojo WANG's Blog
 <li><p><a href="http://english.ia.cas.cn/">My institute</a> - Insitiute of Automation, Chinese Academy of Sciences</p></li>
 <li><p><a href="http://hi.baidu.com/wangjq_17">My Chinese Tech blog</a> - A blog has been run for over three years</p></li>
 
+<p></p>
+<p></p>
 
-<p>The latest articles</p>
+<h3>The latest articles</h3>
 　　<ul>
 　　　　{% for post in site.posts limit: 10 %} 
 　　　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
