@@ -1,8 +1,7 @@
 ---
 layout: article
 categories: [image_processing]  
-tags: [brain]
-tags: [fMRI]
+tags: [brain][fMRI]
 title: Strang result of covariance regression in DPARSFA (DPARSFA剔除协变量之后图像很奇怪)
 comments: yes
 ---
