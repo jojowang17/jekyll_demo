@@ -9,14 +9,17 @@ comments: yes
 
 We always need to regress out nuisance covariates in the MRI preprocessing before FC calculation. In the DASRSF advance version, the MRI image becomes strange after the regression. As shown in the figure, we can find that (1) there are singal out of the brain in the regressed image; (2) the whole regressed image looks gray.
 
-<img src="https://cloud.githubusercontent.com/assets/8384205/5212725/c2102630-7639-11e4-9fc5-04b77bd7a51f.png" align="middle">before regression
+<img src="https://cloud.githubusercontent.com/assets/8384205/5212725/c2102630-7639-11e4-9fc5-04b77bd7a51f.png" align="middle">
+<p>before regression</p>
 
-<img src="https://cloud.githubusercontent.com/assets/8384205/5212726/c39a6556-7639-11e4-881b-ebd509fe9b32.png" align="middle">after regression
+<img src="https://cloud.githubusercontent.com/assets/8384205/5212726/c39a6556-7639-11e4-881b-ebd509fe9b32.png" align="middle">
+<p>after regression</p>
 
 This regressed result is correct. Before regression, (1)the signal intensity in the brain is much higher than that out in the background. Hence, we can clearly identify the brain from the background; (2) the BOLD signal intensities of GM/WM/CSF are different, so we can see the structures in the brain clearly. When the regresion is performed, both the signal covariates of head movement, GM/WM/CSF .. and the mean value of the time domain are regressed. The signal difference between the brain and the background as well as the signal difference among GW/WM/CSF become small. Therefore, the regressed brain image looks blurrier than the imge before regression.
 
 
 <b>中文：</b>
+
 我用DPASRFA2.1版做功能连接前的预处理，做了slice timing、reliagnment、normalise（T1像）、detrend and filter，继续做了剔除头动、全脑平均、白质、脑脊液协变量后，发现图像变得怪怪的，主要有两个问题，一是所有volume在脑外也出现了信号，二是有部分volume图像整个都是灰灰的，如图。过程中文件夹都正常生成了，后面的功能连接图也跑的顺利。
 我单跑了剔除头动或剔除全脑平均等，并且用rest软件试了下，换成spm5等等，还是这种情况，为什么输入软件推荐的步骤，出来的结果却很奇怪呢。后来发现spm qq群里有几个人都是类似的情况，所以很希望老师们帮忙分析下，是那里的问题？如果这一步可以纠正，我还是希望用DPARSFA做，毕竟简单快捷。另外建议老师们能上传下你们处理的中间数据的示意图，我们可以作为质量控制的标准。
 
