@@ -9,10 +9,10 @@ comments: yes
 
 We always need to regress out nuisance covariates in the MRI preprocessing before FC calculation. In the DASRSF advance version, the MRI image becomes strange after the regression. As shown in the figure, we can find that (1) there are singal out of the brain in the regressed image; (2) the whole regressed image looks gray.
 
-<img src="https://cloud.githubusercontent.com/assets/8384205/5212725/c2102630-7639-11e4-9fc5-04b77bd7a51f.png" align="middle">
+<p><img src="https://cloud.githubusercontent.com/assets/8384205/5212725/c2102630-7639-11e4-9fc5-04b77bd7a51f.png" align="middle"></p>
 <p>before regression</p>
 
-<img src="https://cloud.githubusercontent.com/assets/8384205/5212726/c39a6556-7639-11e4-881b-ebd509fe9b32.png" align="middle">
+<p><img src="https://cloud.githubusercontent.com/assets/8384205/5212726/c39a6556-7639-11e4-881b-ebd509fe9b32.png" align="middle"></p>
 <p>after regression</p>
 
 This regressed result is correct. Before regression, (1)the signal intensity in the brain is much higher than that out in the background. Hence, we can clearly identify the brain from the background; (2) the BOLD signal intensities of GM/WM/CSF are different, so we can see the structures in the brain clearly. When the regresion is performed, both the signal covariates of head movement, GM/WM/CSF .. and the mean value of the time domain are regressed. The signal difference between the brain and the background as well as the signal difference among GW/WM/CSF become small. Therefore, the regressed brain image looks blurrier than the imge before regression.
