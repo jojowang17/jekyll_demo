@@ -24,6 +24,8 @@ Before the preprocessing, the .dcm files need to be converted to .nii files or .
 (6) Detrend,
 (7) Filtering.
 (8) Calculate ALFF/ReHo/FC.
+
+
 <b>Chinese:</b>
 
  静息态fMRI数据预处理主要用到的两个工具包是SPM和REST（注意路径不能有中文）。 在介绍数据预处理以前，先介绍一下rest data的数据格式。rest data数据格式可以认为分为三种：.nii,.img/hdr,.dcm。.nii是最常用的一种，也是最通用的一种，它分为三维数据和四维数据两种。三维数据较好理解，因为一个大脑就是一个三维数据。四维数据是指将多个大脑封存在一起。.nii数据SPM可以直接处理，不管是三维还是四维。但是.nii数据不可以用REST处理，若要用REST处理，必须将其转换成.img/hdr的格式，这个可以用REST实现。.img/hdr数据SPM和REST都可以直接处理。.dcm数据是一层一层扫描的数据，是二维的，首先要将其转化成三维数据（.img/hdr），这个可以用SPM实现。一般来说大概30个左右的.dcm可以转换成一个三维数据。这里说明一下.nii数据的前期准备工作。SPM虽然既可以处理三维也可以处理四维数据，我觉得最好还是将四维数据转化成三维数据，这样方便以后处理。转换的软件是和MRIcroN一起的dcm2niigui.exe (它也可以将dcm转换成三维数据)。首先在Output Format中选择SPM8 （3D NlfTI nii），然后在File中选择Modify NIfTI，然后输入数据即可。
