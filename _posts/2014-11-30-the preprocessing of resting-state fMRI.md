@@ -16,6 +16,9 @@ Before the preprocessing, the .dcm files need to be converted to .nii files or .
 
 (1) Discarding the first 10 time points. Considering the instability of the subject at the initially scanning time, the image data at the first 10 time points must be discarded. 
 
+
+--------------not finished---------------------
+
 (2) Slice timing.
 
 (3) Realign
