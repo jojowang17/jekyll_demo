@@ -13,4 +13,4 @@ Generally, there are two kinds of dimension in MNI template: <font color="#FF000
 I don't know why there are two versions with different dimensions. 
 
 
-Reference: <a href="http://lists.mristudio.org/pipermail/mristudio-users/2009/000709.html">http://lists.mristudio.org/pipermail/mristudio-users/2009/000709.html</a>
+Reference: <a href="http://lists.mristudio.org/pipermail/mristudio-users/2009/000709.html" target="_blank">http://lists.mristudio.org/pipermail/mristudio-users/2009/000709.html</a>
