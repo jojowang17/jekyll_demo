@@ -23,4 +23,4 @@ A: After you have inserted the cross-reference, add a so-called numeric picture 
 
 <b>References:</b>
 
-<a href="http://answers.microsoft.com/en-us/office/forum/office_2007-word/how-to-display-figure-number-only-in-cross/02ae3cd0-6c3c-401d-990c-5220d7f0be1e#userconsent#">http://answers.microsoft.com/en-us/office/forum/office_2007-word/how-to-display-figure-number-only-in-cross/02ae3cd0-6c3c-401d-990c-5220d7f0be1e#userconsent#</a>
+<a href="http://answers.microsoft.com/en-us/office/forum/office_2007-word/how-to-display-figure-number-only-in-cross/02ae3cd0-6c3c-401d-990c-5220d7f0be1e#userconsent#"  target="_black">http://answers.microsoft.com/en-us/office/forum/office_2007-word/how-to-display-figure-number-only-in-cross/02ae3cd0-6c3c-401d-990c-5220d7f0be1e#userconsent#</a>
