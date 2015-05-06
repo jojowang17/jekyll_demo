@@ -32,7 +32,7 @@ Re
 
 
 
-Reference: <a target="_blank" href="http://restfmri.net/forum/node/1099">http://restfmri.net/forum/node/1099</a>
+Reference: <a href="http://restfmri.net/forum/node/1099" target="_blank">http://restfmri.net/forum/node/1099</a>
 
 
 
