@@ -12,6 +12,8 @@ For example, I want to reference several figures at once, so it is most natural 
 
 A: After you have inserted the cross-reference, add a so-called numeric picture switch to specify a number format. To do that, press Alt+F9 to display field codes; you'll find that the cross-references are REF fields. Add \# "0" to the end of the relevant REF fields. Press Alt+F9 again to hide the codes, and press F9 to update fields in the selection. 
 
+
+
 <b>Chinese:</b>
 
 问题：word中交叉引用图片时怎么只显示数字而不显示标签呢？比如说一幅图片的题注是“Figure 1   The pipeline of xxx”，交叉引用时，默认的选项，如果选择“只显示标签和编号”，则显示的是Figure 1。但有时候，我们不想要前面的Figure，或者我们想显示的是Fig. 1。该如何处理？
@@ -20,4 +22,5 @@ A: After you have inserted the cross-reference, add a so-called numeric picture 
 
 
 <b>References:</b>
+
 <a href="http://answers.microsoft.com/en-us/office/forum/office_2007-word/how-to-display-figure-number-only-in-cross/02ae3cd0-6c3c-401d-990c-5220d7f0be1e#userconsent#">http://answers.microsoft.com/en-us/office/forum/office_2007-word/how-to-display-figure-number-only-in-cross/02ae3cd0-6c3c-401d-990c-5220d7f0be1e#userconsent#</a>
